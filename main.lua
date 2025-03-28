@@ -7,6 +7,7 @@ import("CoreLibs/timer")
 local gfx <const> = playdate.graphics
 
 local playerSprite = nil
+local bullets = {}
 
 function setup()
 	local playerImage = gfx.image.new("Images/player")
